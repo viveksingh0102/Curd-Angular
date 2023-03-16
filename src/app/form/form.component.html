@@ -1,0 +1,15 @@
+<div class="container clw">
+  <form [formGroup]="productDetails" (ngSubmit)="saveData()">
+    <div class="form-group cls">
+      <label>Product Name</label>
+      <input type="text" class="form-control" formControlName="pname"  placeholder="Enter Name" required>
+     </div>
+     <div class="form-group cls">
+      <label>Job</label>
+      <input type="text" class="form-control" formControlName="job"  placeholder="Enter Name" required>
+     </div>
+      <div class="cls">
+      <button type="submit" class="btn btn-primary">Add Product</button>
+    </div>
+  </form>
+</div>

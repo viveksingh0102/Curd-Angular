@@ -1,0 +1,13 @@
+{
+  "posts": [
+    {
+      "pname": "vivek",
+      "job": "Developer",
+      "id": 2
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
